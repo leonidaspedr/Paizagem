@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #242424;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px 6px black;
+    text-align: center;
+    height: 70px;
+    padding: 10px;
+}
+
+ul li{
+    background-color: black;
+    padding: 15px;
+    border-radius: 16px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: wheat;
+}
+
+li a:hover{
+    background-color: rgb(255, 45, 45);
+    border-radius: 16px;
+    transition: 0.10;
+    padding: 15px;
+    color: white;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: 900;
+    color: #000;
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display: block;
+    background-color: #fff;
+}
+
+.container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section.module p{
+    margin-bottom: 40px;
+}
+
+section.module:last-child{
+    margin-bottom: 0;
+}
+
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module.content{
+    padding:  40px 0;
+    background: #ece765;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+}
+
+section.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+}
+
+section.module.parallax-1{
+   background-image: url(../img1/Gemini_Generated_Image_f4hd1wf4hd1wf4hd.jpeg);
+}
+
+section.module.parallax-2{
+    background-image: url(../img1/Gemini_Generated_Image_9ojytl9ojytl9ojy.jpeg);
+}
+
+section.module.parallax-3{
+    background-image: url(../img1/Gemini_Generated_Image_iag5m2iag5m2iag5.jpeg);
+}
+
+section.module.parallax h1{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    z-index: 50;
+    text-transform: uppercase;
+}
+
+
+.entra{
+    text-align: center;
+    margin-top: 20px;
+}
+.entra a{
+    text-decoration: none;
+    background-color: rgb(245, 244, 244);
+    border-radius: 8px;
+    transition: 0.5s;
+    padding: 12px;
+}
+
+.entra a:hover{
+    background-color: rgb(252, 81, 81);
+    padding: 8px;
+    cursor: pointer;
+}   
+
+footer{
+    background-color: rgb(204, 204, 204);
+    box-shadow: 2px 2px 2px 6px black;
+    text-align: center;
+    padding: 15px;
+    height: 60px;
+}

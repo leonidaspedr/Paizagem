@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img1/Gemini_Generated_Image_9ojytl9ojytl9ojy.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: red(5px);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: url(../img1/Gemini_Generated_Image_f4hd1wf4hd1wf4hd.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 2px 6px black;
+    text-align: center;
+    height: 50px;
+    padding: 40px;
+}
+nav{
+    margin-top: 20px;
+}
+ul a{
+    text-decoration: none;
+    padding: 8px;
+    color: rgb(240, 239, 245);
+}
+ul a:hover{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+section{
+    text-align: center;
+}
+section h2{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+section p{
+    color: white;
+}
+.ima{
+    background-image: url(../img/Q1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 4px 2px 4px 2px white;
+    width: 70%;
+    height: 60%;
+    margin: 0 auto;
+}
+.ima img{
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 70vh;
+    height: 50vh;
+}
+.ima h1{
+    margin-top: 25px;
+    color: white;
+}
+.entra{
+    text-align: center;
+    margin-top: 60px;
+}
+.entra a{
+    text-decoration: none;
+    background-color: rgb(245, 244, 244);
+    border-radius: 8px;
+    padding: 12px;
+}
+.entra a:hover{
+    background-color: rgb(252, 81, 81);
+    padding: 8px;
+}   
+
+footer{
+    background-color: rgb(204, 204, 204);
+    box-shadow: 2px 2px 2px 6px black;
+    text-align: center;
+    margin-top: 15vh;
+    padding: 15px;
+    height: 60px;
+}
+
+
+@media (max-width: 768px) {
+    nav ul{
+        flex-direction: column;
+    }
+}
